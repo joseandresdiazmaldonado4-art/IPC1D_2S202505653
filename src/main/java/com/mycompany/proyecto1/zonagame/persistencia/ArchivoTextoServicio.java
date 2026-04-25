@@ -56,7 +56,7 @@ public class ArchivoTextoServicio {
             System.out.println("NO SE PUDO GUARDAR EL CATALOGO: " + error.getMessage());
         }
     }
-    
+
     private Videojuego convertirLineaAVideojuego(String lineaTexto) {
         try {
             String[] partesLinea = lineaTexto.split("\|");
