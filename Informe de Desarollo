@@ -1,0 +1,30 @@
+#Informe de Desarrollo 
+
+
+##1. Cronograma de Actividades
+El desarrollo se dividió en varias sesiones siguiendo los hitos del proyecto:
+
+
+ Definición de Nodos y Estructuras (Lista Simple, Cola, Matriz). 
+ Creación de Interfaz Swing, Gestión de Usuarios y Tienda. 
+ Implementación de Hilos (Torneos), Logros y Persistencia (.txt). 
+ Generación de Reportes HTML y Pruebas de Calidad. 
+
+---
+
+## 2. Proceso de Implementación Detallado
+
+Se priorizó la creación de las clases de datos antes que la interfaz. 
+* Se diseñó la **Matriz Ortogonal** con sus cuatro punteros fundamentales para garantizar que el álbum fuera dinámico.
+* Se configuró el lector de archivos para procesar el `catalogo.txt` usando delimitadores `|`.
+
+Se implementó la ventana de **Selección de Perfil** 
+* Se vinculó la XP a las acciones de compra. 
+* Se definieron los rangos de nivel (Aprendiz a Leyenda) y se programó el cambio automático de rango al alcanzar los umbrales de XP.
+
+* Se depuró el método `desencolar()` para que las taquillas no vendieran el mismo ticket a dos personas diferentes.
+* Se implementó el cierre del programa (evento `windowClosing`) para asegurar que todos los cambios en el álbum y stock se escribieran en los archivos de texto finales.
+
+ Se creó un usuario, se cerró el programa y se verificó que el archivo `jugadores.txt` contuviera la nueva información.
+ Se ejecutaron los torneos con 5 personas en cola para verificar que los hilos no causaran un bloqueo de la interfaz.
+
