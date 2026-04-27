@@ -1,0 +1,48 @@
+#  Manual Técnico
+
+
+
+## 1. Arquitectura del Sistema
+El proyecto sigue un diseño modular para separar la interfaz gráfica de la lógica de negocio y las estructuras de datos:
+
+* **`estructuras`**: Contiene las implementaciones manuales de las estructuras de datos (Nodos y Clases de Control).
+* **`gui`**: Manejo de la interfaz gráfica utilizando Java Swing (manual, sin drag-and-drop).
+* **`logica`**: Controladores de eventos, gestión de XP, logros y reglas de negocio.
+* **`persistencia`**: Métodos de lectura y escritura de archivos `.txt`.
+
+---
+
+## 2. Estructuras de Datos 
+
+### A. Matriz Ortogonal (Álbum)
+Implementada para el álbum de cartas. Cada `NodoMatriz` posee cuatro punteros (`arriba`, `abajo`, `izquierda`, `derecha`), permitiendo una navegación bidimensional completa.
+* **Inserción:** Algoritmo de recorrido por filas (row-major) para encontrar la primera celda con dato nulo.
+* **Intercambio:** Swap de objetos `Carta` entre nodos sin romper los enlaces de la malla.
+
+
+### B. Lista Enlazada Simple
+Utilizada para el carrito de compras, el historial y la lista de jugadores.
+* **Ordenamiento:** Se implementó el algoritmo **Bubble Sort** para el Tablero de Líderes, permitiendo ordenar a los usuarios por XP de forma descendente.
+
+### C. Cola (Queue)
+Utilizada para el módulo de torneos. Sigue el principio **FIFO** (First-In, First-Out).
+
+---
+
+## 3. Manejo de Concurrencia (Hilos)
+El módulo de Torneos utiliza **Threads** para simular la venta de tickets en taquillas simultáneas:
+* **Sincronización:** Se utilizó la palabra clave `synchronized` en el método `desencolar()` para evitar condiciones de carrera (Race Conditions) cuando dos hilos intentan acceder al mismo cliente al mismo tiempo.
+* **Interfaz:** Uso de `Thread.sleep()` para simular el tiempo de atención y actualización dinámica de la UI.
+
+
+## 4. Persistencia de Datos
+El sistema garantiza que la información no se pierda al cerrar la aplicación mediante:
+* **Lectura:** Uso de `Scanner` y `StringTokenizer` (o `split('|')`) para parsear archivos de configuración.
+* **Escritura:** `FileWriter` y `PrintWriter` para volcar el estado actual de los objetos a los archivos de texto al realizar transacciones o salir del programa.
+
+---
+
+##  5. Reportes Generados
+Se utiliza un motor de plantillas manual para generar archivos **HTML5/CSS3**.
+* **Formato de archivo:** `DD_MM_YYYY_HH_mm_ss_Tipo.html`.
+* **Visualización:** Uso de la clase `Desktop` para la apertura automática en el navegador predeterminado.
