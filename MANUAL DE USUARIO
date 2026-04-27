@@ -1,0 +1,44 @@
+# Manual de Usuario
+
+## 1. Inicio y Selección de Perfil
+Al ejecutar el programa, serás recibido por la pantalla de gestión de usuarios:
+* **Seleccionar:** Haz clic sobre un nombre en la tabla y presiona el botón **"Seleccionar Jugador"** para cargar tu progreso.
+* **Nuevo Jugador:** Si eres nuevo, usa el botón **"Nuevo Jugador"**, ingresa tu nombre. 
+
+## 2. Tienda de Videojuegos
+En este módulo puedes explorar y adquirir los mejores títulos:
+* **Catálogo:** Navega por las tarjetas de juegos en el panel izquierdo.
+* **Filtros Inteligentes:** Utiliza los buscadores superiores para filtrar por **Género** o **Plataforma**. También puedes buscar por nombre en tiempo real.
+* **Compra:** Haz clic en un juego para ver su descripción. Dale a **"Agregar al Carrito"** y confirma tu compra en el panel derecho.
+* **Sistema de Stock:** Si un juego se agota, el sistema te avisará que no hay existencias disponibles.
+
+---
+
+## 3. Álbum de Cartas Coleccionables
+Tu progreso se te otorgaran cartas para llenar tu album:
+* **Visualización:** Cada carta muestra su nombre, tipo y rareza.
+* **Intercambio:** Para reorganizar tu álbum, haz clic en una carta y luego en otra celda para **intercambiar sus posiciones**.
+* **Búsqueda:** Resalta tus cartas favoritas usando el filtro de búsqueda por rareza o nombre.
+* **¿Cómo ganar cartas?:** - Realizando compras en la tienda.
+  - Participando en eventos especiales.
+
+## 4. Logros y Niveles de Experiencia
+El sistema premia tu actividad constante:
+* **Niveles:** Tu rango cambiará según tu XP:
+  - **Nivel 1 (Aprendiz):** 0 – 499 XP
+  - **Nivel 2 (Jugador):** 500 – 1,499 XP
+  - **Nivel 3 (Veterano):** 1,500 – 3,499 XP
+  - **Nivel 4 (Maestro):** 3,500 – 6,999 XP
+  - **Nivel 5 (Leyenda):** 7,000+ XP
+* **Logros:** Desbloquea los 8 logros especiales (se indicarán con un candado abierto una vez cumplidos).
+
+---
+
+## 5. Torneos y Eventos
+Participa en las competencias más grandes:
+* **Inscripción:** Selecciona un torneo y presiona **"Simular"**.
+
+
+
+## 6. Reportes y Datos
+* **Reportes HTML:** Genera reportes detallados de inventario, ventas y el estado de tu álbum.
