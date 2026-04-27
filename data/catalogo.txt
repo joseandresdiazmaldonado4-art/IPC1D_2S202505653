@@ -1,0 +1,16 @@
+J001|The Legend of Zelda Twilight Princess|Aventura|Nintendo Wii|599.99|10|Juego disponible en catalogo.
+J002|Mortal Kombat|Pelea|PlayStation|399.99|5|Juego disponible en catalogo.
+J003|Super Smash Bros Brawl|Pelea|Nintendo Wii|249.5|8|Juego disponible en catalogo.
+J004|Mario Kart World|Carreras|Nintendo Switch|199.99|12|Juego disponible en catalogo.
+J005|Super Mario 64|Aventura|Nintendo 64|349.99|6|Juego disponible en catalogo.
+J006|five nights at freddy's|Terror|PC|279.99|4|Juego disponible en catalogo.
+J007|Super Mario Galaxy|Aventura|Nintendo Wii|329.99|7|Juego disponible en catalogo.
+J008|Halo: Reach|Pelea|Xbox|189.99|8|Juego disponible en catalogo.
+J009|Grand Theft Auto V|Acción|Multiplataforma|549.99|15|Juego disponible en catalogo.
+J010|Minecraft|Construcción|PC|499.99|16|Juego disponible en catalogo.
+J011|God of War|Acción|PlayStation|449.99|9|Juego disponible en catalogo.
+J012|Call of Duty: Black Ops II|Disparos|Xbox|299.99|6|Juego disponible en catalogo.
+J013|Resident Evil 4|Terror|Multiplataforma|399.99|6|Juego disponible en catalogo.
+J014|League of Legends|Estrategia|PC|0.0|99|Juego disponible en catalogo.
+J015|Pokémon Rojo Fuego|RPG|Game Boy Advance|349.99|4|Juego disponible en catalogo.
+J016|FIFA 23|Deportes|Multiplataforma|499.99|9|Juego disponible en catalogo.

@@ -1,8 +1,0 @@
-J001|The Legend of Zelda Twilight Princess| Aventura| Nintendo Wii|599.99|10
-J002|Mortal Kombat|Pelea|PlayStation|399.99|5
-J003|Super Smash Bros Brawl| Pelea| Nintendo Wii|249.50|8
-J004|Mario Kart World| Carreras| Nintendo Switch|199.99|12
-J005|Super Mario 64|Aventura|Nintendo 64|349.99|6
-J006|five nights at freddy's|Terror|PC|279.99|4
-J007|Super Mario Galaxy| Aventura| Nintendo Wii|329.99|7
-J008|Halo: Reach|Pelea|Xbox|189.99|9

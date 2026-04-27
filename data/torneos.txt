@@ -1,0 +1,3 @@
+T001|Copa Smash|Super Smash Bros Brawl|20|1
+T002|Noche Mortal Kombat|Mortal Kombat|15|0
+T003|Grand Prix Mario Kart|Mario Kart World|25|10

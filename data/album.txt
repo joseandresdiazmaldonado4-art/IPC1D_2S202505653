@@ -1,0 +1,2 @@
+0|0|J001|Zelda|Comun
+0|1|002|Ghost|Epica
